@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ol5XYHrTEeim7ckILW9omw" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_oqC3kHrTEeim7ckILW9omw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wAeSkHrTEeim7ckILW9omw" name="com.punch.punch.view.agreement">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_wAeSkXrTEeim7ckILW9omw" name="AgreementContract">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_wAeSknrTEeim7ckILW9omw" name="View">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_wAeSk3rTEeim7ckILW9omw" name="showMainActivity"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_wAeSlHrTEeim7ckILW9omw" name="Presenter">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_wAeSlXrTEeim7ckILW9omw" name="registAgreement"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_wAeSlnrTEeim7ckILW9omw">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_wAeSl3rTEeim7ckILW9omw" name="token">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_wAeSmHrTEeim7ckILW9omw" name="agreement">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wAeSmXrTEeim7ckILW9omw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wAeSmnrTEeim7ckILW9omw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </nestedClassifier>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wAeSm3rTEeim7ckILW9omw" name="POLICY_USE" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wAeSnHrTEeim7ckILW9omw" name="POLICY_USE" value="POLICY_USE"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wAeSnXrTEeim7ckILW9omw" name="POLICY_USE_PRIVACY" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wAeSnnrTEeim7ckILW9omw" name="POLICY_USE_PRIVACY" value="POLICY_USE_PRIVACY"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wAeSn3rTEeim7ckILW9omw" name="POLICY_ADVERTISEMENT_RECEIVE">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wAeSoHrTEeim7ckILW9omw" name="POLICY_ADVERTISEMENT_RECEIVE" value="POLICY_ADVERTISEMENT_RECEIVE"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FkYf8HrUEeim7ckILW9omw" name="com.punch.punch.model">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FkYf8XrUEeim7ckILW9omw" name="OauthAuthentication">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FkYf8nrUEeim7ckILW9omw" name="signIn">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf83rUEeim7ckILW9omw" name="token">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf9HrUEeim7ckILW9omw" name="isSuccess" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FkYf9XrUEeim7ckILW9omw" name="signUp">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf9nrUEeim7ckILW9omw" name="token">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf93rUEeim7ckILW9omw" name="isSuccess" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FkYf-HrUEeim7ckILW9omw" name="signOut" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf-XrUEeim7ckILW9omw" name="isSuccess" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FkYf-nrUEeim7ckILW9omw" name="getUID" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkYf-3rUEeim7ckILW9omw" name="uid" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FkYf_HrUEeim7ckILW9omw" name="Authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_FkYf_XrUEeim7ckILW9omw" general="_FkYf8XrUEeim7ckILW9omw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FkYf_nrUEeim7ckILW9omw" name="uid" visibility="private" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FkZHAHrUEeim7ckILW9omw" name="com.punch.punch.view">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FkZHAXrUEeim7ckILW9omw" name="BasePresenter" visibility="public"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FkZHAnrUEeim7ckILW9omw" name="BaseView" visibility="public">
+      <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_FkZuEHrUEeim7ckILW9omw" name="RedefinableTemplateSignature1" parameter="_FkZuEXrUEeim7ckILW9omw">
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_FkZuEXrUEeim7ckILW9omw" parameteredElement="_FkZuEnrUEeim7ckILW9omw">
+          <ownedParameteredElement xmi:type="uml:PrimitiveType" xmi:id="_FkZuEnrUEeim7ckILW9omw" name="A : BasePresenter" visibility="package" templateParameter="_FkZuEXrUEeim7ckILW9omw"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FkZuE3rUEeim7ckILW9omw" name="serPresenter">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkZuFHrUEeim7ckILW9omw" name="presenter" type="_FkZuEnrUEeim7ckILW9omw"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FkaVIHrUEeim7ckILW9omw" name="com.punch.punch.view.login">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FkaVIXrUEeim7ckILW9omw" name="LoginContract">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_FkaVInrUEeim7ckILW9omw" name="View">
+        <generalization xmi:type="uml:Generalization" xmi:id="_FkaVI3rUEeim7ckILW9omw" general="_FkZHAnrUEeim7ckILW9omw"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_FkaVJHrUEeim7ckILW9omw" name="showSignIn"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_FkaVJXrUEeim7ckILW9omw" name="showSignResult">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkaVJnrUEeim7ckILW9omw" name="isSuccess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_FkaVJ3rUEeim7ckILW9omw" name="showMainActivity"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_FkaVKHrUEeim7ckILW9omw" name="showAgreeActivity"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_FkaVKXrUEeim7ckILW9omw" name="Presenter">
+        <generalization xmi:type="uml:Generalization" xmi:id="_FkaVKnrUEeim7ckILW9omw" general="_FkZHAXrUEeim7ckILW9omw"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_FkaVK3rUEeim7ckILW9omw" name="requestAuthentication">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_FkaVLHrUEeim7ckILW9omw" name="token">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </nestedClassifier>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
