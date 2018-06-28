@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_II6M0HrBEeim7ckILW9omw" type="PapyrusUMLClassDiagram" name="com.punch.punch" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_II6M0XrBEeim7ckILW9omw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_II6M0nrBEeim7ckILW9omw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_II6M03rBEeim7ckILW9omw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Oi9fIHrBEeim7ckILW9omw" type="PapyrusUMLClassDiagram" name="com.punch.punch.view" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Oi9fIXrBEeim7ckILW9omw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Oi9fInrBEeim7ckILW9omw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Oi9fI3rBEeim7ckILW9omw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_SEg6UHrBEeim7ckILW9omw" type="PapyrusUMLClassDiagram" name="com.punch.punch.model" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_SEg6UXrBEeim7ckILW9omw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_SEg6UnrBEeim7ckILW9omw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_SEg6U3rBEeim7ckILW9omw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="punch_uml.uml#_COkVUHrBEeim7ckILW9omw"/>
+  </notation:Diagram>
+</xmi:XMI>
